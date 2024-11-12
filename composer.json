@@ -1,0 +1,36 @@
+{
+    "name": "i-kadar/simplified-neo4-client",
+    "description": "Simplified neo4j client",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "IKadar\\SimplifiedNeo4Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Istvan Kadar",
+            "email": "ika@wine-logics.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "laudis/neo4j-php-client": "dev-main"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.5.*",
+        "symfony/var-dumper": "7.0.*"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}
