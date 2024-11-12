@@ -26,7 +26,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "10.5.*",
-        "symfony/var-dumper": "7.0.*"
+        "symfony/var-dumper": "7.0.*",
+        "symfony/dotenv": "7.2.x-dev"
     },
     "config": {
         "allow-plugins": {

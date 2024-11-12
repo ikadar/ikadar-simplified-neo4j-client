@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eeb448ba3966f0b7a2484a0cc589896b",
+    "content-hash": "d2581050ba1149ef0cd922dc9a99665f",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -2307,6 +2307,80 @@
             "time": "2024-09-07T13:16:02+00:00"
         },
         {
+            "name": "symfony/dotenv",
+            "version": "7.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dotenv.git",
+                "reference": "07b2c58767aadc8ed96b26fadc513a0d00ccd084"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/07b2c58767aadc8ed96b26fadc513a0d00ccd084",
+                "reference": "07b2c58767aadc8ed96b26fadc513a0d00ccd084",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "conflict": {
+                "symfony/console": "<6.4",
+                "symfony/process": "<6.4"
+            },
+            "require-dev": {
+                "symfony/console": "^6.4|^7.0",
+                "symfony/process": "^6.4|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Dotenv\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Registers environment variables from a .env file",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/dotenv/tree/7.2"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-28T12:51:41+00:00"
+        },
+        {
             "name": "symfony/polyfill-mbstring",
             "version": "1.x-dev",
             "source": {
@@ -2524,7 +2598,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "laudis/neo4j-php-client": 20
+        "laudis/neo4j-php-client": 20,
+        "symfony/dotenv": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

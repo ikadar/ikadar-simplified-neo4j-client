@@ -12,6 +12,10 @@ class ClientTest extends TestCase
     protected function setUp(): void
     {
         $this->credentials = [
+            "host" => $_ENV["NEO4JHOST"],
+            "boltPort" => $_ENV["NEO4JBOLT"],
+            "password" => $_ENV["NEO4JPWD"],
+            "database" => $_ENV["NEO4JDB"],
         ];
     }
 
